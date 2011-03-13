@@ -1,4 +1,2 @@
-Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{REQUEST_METHOD} ^PUT$ [NC]
-RewriteRule (.*)$ /api.php [L]
+RewriteRule ^.*$ index.php
